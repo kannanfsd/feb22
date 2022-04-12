@@ -1,0 +1,18 @@
+package com.nglabs;
+
+interface Operation {
+	public double doCriteria(double firstNum, double secondNum);
+}
+
+public class ArithOperation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	
+	public static double doOperation(double firstNum, double secondNum, Operation operator) {
+		
+	}
+
+}

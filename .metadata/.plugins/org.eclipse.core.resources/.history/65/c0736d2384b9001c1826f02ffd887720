@@ -1,0 +1,13 @@
+package com.infy.repository;
+
+import com.infy.dto.CustomerLoginDTO;
+
+public class CustomerLoginRepositoryImpl implements CustomerLoginRepository {
+
+	@Override
+	public CustomerLoginDTO getCustomerLoginByLoginName(String loginName) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

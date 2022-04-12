@@ -1,0 +1,5 @@
+package com.infy.config;
+
+public class SpringConfig {
+
+}

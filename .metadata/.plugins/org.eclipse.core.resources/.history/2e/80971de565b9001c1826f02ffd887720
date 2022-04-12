@@ -1,0 +1,13 @@
+package com.infy.bean;
+
+public class PropertyBean {
+	private String email;
+	private String team;
+	public String getEmail() {
+		return email;
+	}
+	public String getTeam() {
+		return team;
+	}
+	
+}

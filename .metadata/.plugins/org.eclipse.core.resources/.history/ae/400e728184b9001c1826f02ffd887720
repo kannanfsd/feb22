@@ -1,0 +1,16 @@
+package com.infy.service;
+
+import org.springframework.stereotype.Service;
+
+import com.infy.dto.CustomerLoginDTO;
+import com.infy.exception.InfyBankException;
+@Service(value="customerLoginService")
+public class CustomerLoginServiceImpl implements CustomerLoginService {
+
+	@Override
+	public String authenticateCustomer(CustomerLoginDTO customerLogin) throws InfyBankException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

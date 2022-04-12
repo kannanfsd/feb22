@@ -1,0 +1,42 @@
+package com.infy;
+
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.core.env.Environment;
+
+import com.infy.config.SpringConfig;
+import com.infy.controller.CustomerLoginController;
+import com.infy.dto.CustomerLoginDTO;
+import com.infy.exception.InfyBankException;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+	public static final Log LOGGER = LogFactory.getLog(App.class); 
+    public static void main( String[] args )
+    {
+    	Environment environment=null;
+		ApplicationContext applicationContext =null;
+		try{
+			applicationContext = new AnnotationConfigApplicationContext(SpringConfig.class);
+			environment=applicationContext.getEnvironment();
+			CustomerLoginController customerLoginController = applicationContext
+					.getBean(CustomerLoginController.class);
+			CustomerLoginDTO customerLogin = new CustomerLoginDTO();
+			customerLogin.setLoginName("harry");
+			customerLogin.setPassword("harry1234");
+			String res = customerLoginController.authenticateCustomer(customerLogin);
+			//System.out.println("Hello--"+res);
+			//LOGGER.info(environment.getProperty(res));
+			String message = environment.getProperty(res);
+			LOGGER.info(message);
+		}catch(InfyBankException exception){
+			LOGGER.info(environment.getProperty(exception.getMessage()));
+		}
+    }
+}

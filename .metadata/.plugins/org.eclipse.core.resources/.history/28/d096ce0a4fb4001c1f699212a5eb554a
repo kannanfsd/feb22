@@ -1,0 +1,5 @@
+package com.nglabs.bean;
+
+public class WelcomeBean {
+
+}

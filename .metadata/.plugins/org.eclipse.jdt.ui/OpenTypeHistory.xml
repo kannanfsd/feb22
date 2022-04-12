@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=basic-service-layer/C:\/Users\/hp\/Links\/jdk\/jdk-11.0.2\/lib\/jrt-fs.jar`java.base=/maven.pomderived=/true=/=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/11\/docs\/api\/=/&lt;java.lang(Exception.class[Exception" modifiers="33" timestamp="1646564236790"/>
+    <typeInfo handle="=basic-service-layer/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.nglabs.service{CustomerLoginService.java[CustomerLoginService" modifiers="513" timestamp="1649005080119"/>
+    <typeInfo handle="=basic-service-layer/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.nglabs.repository{CustomerLoginRepository.java[CustomerLoginRepository" modifiers="513" timestamp="1649004352599"/>
+    <typeInfo handle="=InfyBankAutowired/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.infy.repository{CustomerLoginRepository.java[CustomerLoginRepository" modifiers="513" timestamp="1649673562511"/>
+    <typeInfo handle="=InfyBankAutowired/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.infy.service{CustomerLoginService.java[CustomerLoginService" modifiers="513" timestamp="1649673769440"/>
+</typeInfoHistroy>

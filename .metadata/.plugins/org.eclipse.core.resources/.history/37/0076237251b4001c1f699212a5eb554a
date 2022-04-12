@@ -1,0 +1,14 @@
+package com.nglabs.configuration;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import com.nglabs.bean.WelcomeBean;
+
+@Configuration
+public class SpringConfig {
+	@Bean
+	public WelcomeBean getWelcomeBean() {
+		return new WelcomeBean();
+	}
+}

@@ -1,0 +1,14 @@
+package com.infy.service;
+
+import com.infy.dto.CustomerLoginDTO;
+import com.infy.exception.InfyBankException;
+
+public class CustomerLoginServiceImpl implements CustomerLoginService {
+
+	@Override
+	public String authenticateCustomer(CustomerLoginDTO customerLogin) throws InfyBankException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}
